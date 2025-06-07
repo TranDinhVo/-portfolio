@@ -1,10 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Modal } from "antd";
 import { BsArrowRight } from "react-icons/bs";
 import { IoLogoReact } from "react-icons/io5";
 
 interface IProject {
-  image: JSX.Element;
+  image: React.ReactNode;
   title: string;
   shortDescription: string;
   detail: {
